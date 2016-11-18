@@ -52,7 +52,7 @@ void dataPointsToGraphPoints(){
 
 void plotScreenPoints(){
   i = 0;
-  for (i = 0 ; i < 10 ; i = i+1){
+  for (i = 0 ; i < 11 ; i = i+1){
     TV.draw_cirlce(XscreenPoint[i], ScreenPoints[i],2, 2,2);
   }
 }
